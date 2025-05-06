@@ -5,7 +5,7 @@ This is an AI slop-coded bridge between OBS Studio's congestion indicator and va
 1. Start OBS and install the script
 	Tools -> Scripts -> + button -> Select `congestion-writer.lua`
 
-2. Verify %temp%\obs_status.txt exists
+2. Verify %temp%\\obs_status.txt exists
 
 3. Install python 3 + requirements
 	`python -m pip install -r requirements.txt`
@@ -17,7 +17,7 @@ This is an AI slop-coded bridge between OBS Studio's congestion indicator and va
 2. Run `light-controller.py`
 
 If the light doesn't turn white briefly on script startup, you probably need to go adjust
-%appdata%\Roaming\Python\{PYTHON VERSION}\site-packages\busylight\lights\light.py
+%appdata%\\Roaming\\Python\\{PYTHON VERSION}\\site-packages\\busylight\\lights\\light.py
 to comment out line 554 and 555 that add a padding byte on Windows.
 
 3. Watch the light
